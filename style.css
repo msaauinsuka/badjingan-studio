@@ -1,0 +1,213 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F4F1EC;
+}
+
+.container-navbar {
+    background-color: #1F2A44;
+    width: 100%;
+    height: 80px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 80px;
+    justify-content: right;
+    justify-items: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+.li-navbar {
+    color: whitesmoke;
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    list-style-type: none;
+    align-content: space-around;
+    align-items: center;
+    transition: text-shadow 0.5s ease-in-out;
+    
+}
+
+.a-navbar {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.li-navbar:hover {
+    text-shadow:
+    0 0 6px rgb(255, 234, 113),
+    0 0 12px rgba(255, 247, 129, 0.842);
+}
+
+.content {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 20 20 20 20px;
+    margin: 20 20 20 20px;
+}
+
+/* Kolom kiri */
+.text {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    gap: 50px;
+    color: #1F2A44;
+}
+
+.container-h2 {
+    font-size: 50px;
+}
+
+.content-1 {
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+/* Gambar */
+.content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.jelajahi {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container-jelajahi {
+    background-color: #1F2A44;
+    border-radius: 20px;
+    width: 20%;
+    max-width: 1000px;
+    height: 40px;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.container-jelajahi:hover {
+    background-color: #C6A969;
+    transition: 0.5s;
+    transition-delay: 0.5;
+    border-radius: 30px;
+}
+
+.container-artikel {
+    color: #1F2A44;
+    width: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    margin-left: 90px;
+    transition: text-shadow 0.5s ease;
+}
+
+.container-artikel:hover{
+  text-shadow: 
+    0 0 6px rgb(255, 234, 113),
+    0 0 12px rgba(255, 247, 129, 0.842);
+}
+
+.artikel-content {
+    background-color: #1F2A44;
+    color: #F4F1EC;
+    text-transform: capitalize;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 18px;
+    padding: 25px;
+    padding-left: 120px;
+    gap: 60px
+}
+
+.a-artikel {
+    color: #F4F1EC;
+}
+
+.container-judul {
+    text-decoration: underline;
+    transition: text-shadow 0.5s ease-in-out;
+}
+
+.container-judul:hover {
+    text-shadow:
+    0 0 6px rgb(255, 234, 113),
+    0 0 12px rgba(255, 247, 129, 0.842);
+}
+
+.container-desain {
+    color: #1F2A44;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+    margin-left: 90px;
+}
+
+.desain-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.gambar-desain {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+/* gambar */
+.gambar-desain img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* teks keterangan */
+.keterangan-gambar {
+    display: block;
+    padding: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.container-clossing {
+    justify-items: center;
+    padding: 30px;
+    margin: 25px;
+}
+
+    
